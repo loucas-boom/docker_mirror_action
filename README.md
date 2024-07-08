@@ -5,10 +5,10 @@
 
 ---
 ### 食用方法
-``` bash
-  #1、提交Issue
-  #2、按如下实例编辑Issue
-```
+
+
+提交Issue并按如下示例编辑Issue，提交即可触发action
+
 ``` bash
 ["registry.k8s.io/kube-controller-manager:v1.27.4","registry.k8s.io/kube-proxy:v1.27.4","registry.k8s.io/kube-scheduler:v1.27.4","registry.k8s.io/conformance:v1.27.4"]
 ```

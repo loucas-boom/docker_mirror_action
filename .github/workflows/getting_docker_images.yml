@@ -2,7 +2,7 @@ name: Getting Docker images
 
 on:
   issues:
-    types: [edited]
+    types: [opened,edited]
 
 jobs:
   process-issue:
