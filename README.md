@@ -8,5 +8,7 @@
 ``` bash
   #1、提交Issue
   #2、按如下实例编辑Issue
+```
+``` bash
 ["registry.k8s.io/kube-controller-manager:v1.27.4","registry.k8s.io/kube-proxy:v1.27.4","registry.k8s.io/kube-scheduler:v1.27.4","registry.k8s.io/conformance:v1.27.4"]
 ```
