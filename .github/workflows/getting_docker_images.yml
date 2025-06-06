@@ -54,10 +54,14 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+    - name: Set current date
+      id: date
+      run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
     - name: Upload Docker images to repository
       uses: actions/upload-artifact@v4
       with:
-        name: docker-images
+        name: docker-images-${{ steps.date.outputs.date }}
         path: docker_images/
 
     - name: Close issue
